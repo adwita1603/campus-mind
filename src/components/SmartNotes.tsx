@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { summarizeNotes } from '../services/gemini';
+import { summarizeNotes } from '../src/services/services/gemini';
 
 interface Props {
   theme: 'dark' | 'light';

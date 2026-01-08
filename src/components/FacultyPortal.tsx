@@ -1,6 +1,6 @@
 
 import React, { useState, useRef } from 'react';
-import { ClassInfo, StudentStats, Task, SyllabusModule, UserProfile } from '../types';
+import { ClassInfo, StudentStats, Task, SyllabusModule, UserProfile } from '../types/types';
 import { extractSkillsFromSyllabus } from '../services/gemini';
 
 interface FacultyPortalProps {

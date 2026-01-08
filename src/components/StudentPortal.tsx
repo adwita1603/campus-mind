@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { suggestGoalSkills, calculateMatchAnalysis } from '../services/gemini';
+import { suggestGoalSkills, calculateMatchAnalysis } from '../src/services/services/gemini';
 import { Skill, ClassInfo, Task } from '../types';
 
 interface StudentPortalProps {

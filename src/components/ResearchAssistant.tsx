@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { researchTopic } from '../services/gemini';
+import { researchTopic } from '../src/services/services/gemini';
 
 interface Props {
   theme: 'dark' | 'light';

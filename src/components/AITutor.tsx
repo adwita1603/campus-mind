@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { chatWithTutor } from '../services/gemini';
+import { chatWithTutor } from '../src/services/services/gemini';
 
 interface Props {
   theme: 'dark' | 'light';

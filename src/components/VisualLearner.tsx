@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { generateVisualAid } from '../services/gemini';
+import { generateVisualAid } from '../src/services/services/gemini';
 interface Props {
   theme: 'dark' | 'light';
 }

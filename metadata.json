@@ -1,0 +1,8 @@
+{
+  "name": "CampusMind AI-new",
+  "description": "An all-in-one AI-powered academic companion for research, smart note-taking, and visual learning.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
